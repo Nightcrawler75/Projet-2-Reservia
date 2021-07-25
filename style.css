@@ -1,0 +1,121 @@
+.info-button{
+    font-family: 'Raleway', sans-serif;
+    border-radius: 49px;
+    border: 2px solid #DCDCDC;
+    background-color: #FFFFFF;
+    height: 24px;
+    width: 24px;
+}
+.fa-info{
+  color: #0065ff;
+}
+.filter-button{
+  font-family: 'Raleway', sans-serif;
+  border-radius: 25px;
+  border: 2px solid #DCDCDC;
+  background-color: #FFFFFF;
+  height: 46px;
+  width: fit-content;
+}
+.filter-text{
+  margin: 10px;
+}
+
+.filter-icon{
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+  left: -2px;
+  top: -2px;
+  color: #0065ff;
+  background-color: #DEEBFF;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+.fa-money-bill-wave{
+  color: #0065ff;
+  margin: auto;
+}
+.fa-child{
+  color: #0065ff;
+  background-color: #DEEBFF;
+  border-radius: 50px;
+  background-size: 49px;
+}
+.fa-heart{
+  color: #0065ff;
+  background-color: #DEEBFF;
+  border-radius: 50px;
+  background-size: 49px;
+}
+.fa-dog{
+  color: #0065ff;
+  background-color: #DEEBFF;
+  border-radius: 50px;
+  background-size: 49px;
+}
+.card-accomodation {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 236px;
+    border-radius: 20px;
+    padding: 5px 5px 8px;
+    line-height: 3px;
+    display: inline-block;
+    margin: 16px;
+    background-color: #FFFFFF;
+
+  }
+  .accomodation{
+    width: 844px;
+    background-color: #F2F2F2;
+    padding: 10px 20px;
+    border-radius:  20px;
+
+    
+ 
+  }
+  .card-accomodation:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .accomodationimg {
+
+  border-radius: 16px 16px 0 0 ;
+  width: 236px;
+  height: 114px;
+  }
+  .accomodation-container {
+    padding: 1px 10px 4px 10px;
+  }
+ .fa-star{
+  color: #0065fc;
+  font-size: 12px;
+}
+.stars{
+  word-spacing: -4px;
+}
+.fa-star.empty{
+  color: #DCDCDC;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.tarif{
+  font-size: 14px;
+}
+.test-button{
+  font-family: 'Raleway', sans-serif;
+  border: 2px solid #DCDCDC;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+}
+.fa3 {
+  background-color: #DEEBFF;
+  border-radius: 50px;
+  background-size: 50px;
+  vertical-align: middle;
+}
