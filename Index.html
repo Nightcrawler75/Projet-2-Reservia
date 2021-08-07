@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="#" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +29,7 @@
     </header>
     <main>
         <div>
-            <h3 class="announcement">Trouvez votre hébergement pour des vacances de rêves</h3>
+            <h3 class="announcement">Trouvez votre hébergement pour des vacances de rêve</h3>
             <p class="promo">En plein centre ville ou en pleine nature</p>
         </div>
         <div class="search-bar">
@@ -36,32 +37,35 @@
             <input class="search-bar-typing" placeholder="Marseille, France" type="text">
             <button class="search-bar-button" type="button">
                 <div class="search-bar-button-text">Rechercher</div>
+                <div class="search-icon"><i class="fas fa-search"></i></div>       
             </button>
+            
         </div>
-        <div class="filters">
-            <div class="filter-title"><b>Filtres</b></div>
-
-            <div class="filter-button">
-                <div class="filter-icon"><i class="fas fa-money-bill-wave"></i></div>
-                <div class="filter-text"><b>Économiques</b></div>
-            </div>
-            <div class="filter-button">
-                <div class="filter-icon"><i class="fas fa-child"></i></div>
-                <div class="filter-text"><b>Familial</b></div>
-            </div>
-            <div class="filter-button">
-                <div class="filter-icon"><i class="fas fa-heart"></i></div>
-                <div class="filter-text"><b>Romantique</b></div>
-            </div>
-            <div class="filter-button">
-                <div class="filter-icon"><i class="fas fa-dog"></i></div>
-                <div class="filter-text"><b>Animaux Autorisés</b></div>
+        <div class="filter-title"><b>Filtres</b></div>
+        <div class="filters">     
+            <div class="filter-buttons">
+                <div class="filter-button">
+                    <div class="filter-icon"><i class="fas fa-money-bill-wave"></i></div>
+                    <div class="filter-text"><b>Économiques</b></div>
+                </div>
+                <div class="filter-button">
+                    <div class="filter-icon"><i class="fas fa-child"></i></div>
+                    <div class="filter-text"><b>Familial</b></div>
+                </div>
+                <div class="filter-button">
+                    <div class="filter-icon"><i class="fas fa-heart"></i></div>
+                    <div class="filter-text"><b>Romantique</b></div>
+                </div>
+                <div class="filter-button">
+                    <div class="filter-icon"><i class="fas fa-dog"></i></div>
+                    <div class="filter-text"><b>Animaux Autorisés</b></div>
+                </div>
             </div>
         </div>
-        <p>
+        <div class="info-container">
             <button class="info-button" type="button"><i class="fas fa-info"></i></button>
-            Plus de 500 logements sont disponibles dans cette ville
-        </p>
+            <div>Plus de 500 logements sont disponibles dans cette ville</div>
+        </div>
         <div class="hotels">
             <div class="accomodation">
                 <h2 class="accomodation-title">Hébergements à Marseille</h3>
@@ -249,7 +253,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </main>
     <footer>
