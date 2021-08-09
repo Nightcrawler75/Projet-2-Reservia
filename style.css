@@ -404,6 +404,7 @@ input:focus::placeholder{
   flex-direction: row;
   justify-content: center;
   margin-top: -15px;
+  margin-left: 15px;
 }
 
 .activity-container {
@@ -529,23 +530,6 @@ input:focus::placeholder{
 
   /* // Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 375px) {
-  input:focus{
-    outline: none;
-    animation-name: blink;
-    animation-duration: 800ms;
-    animation-iteration-count: infinite;
-    /* border-color: #F2F2F2; */
-  }
-  ::placeholder {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: large;
-    color: black;
-    opacity: 1; /* Firefox */
-  }
-  input:focus::placeholder{
-    color:transparent;
-  }
 
   .logo{
     padding: 20px 0 0 15px;
@@ -598,6 +582,23 @@ input:focus::placeholder{
   }
   .search-bar-typing{
     width: auto;
+  }
+  input:focus{
+    outline: none;
+    animation-name: blink;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    /* border-color: #F2F2F2; */
+  }
+  ::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  input:focus::placeholder{
+    color:transparent;
   }
   .search-bar-button{
     border-radius: 16px 16px 16px 16px;
@@ -737,7 +738,24 @@ input:focus::placeholder{
 
 }
 /* // Medium devices (tablets, 768px and up) */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (min-width: 376px){
+  input:focus{
+    outline: none;
+    animation-name: blink;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    /* border-color: #F2F2F2; */
+  }
+  ::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  input:focus::placeholder{
+    color:transparent;
+  }
   .filter-buttons{
   margin-right: 0;
   display: grid;
@@ -747,7 +765,7 @@ input:focus::placeholder{
   "filter-button filter-button"
   "filter-button filter-button";
   column-gap: 20px;
-  row-gap: 5px;
+  row-gap: 1px;
   margin-right: 140px;
   }
   .hotels{
@@ -755,21 +773,68 @@ input:focus::placeholder{
   }
   .popular {
   display: grid;
-  grid-template-columns: 380px 380px;
+  grid-template-columns: 250px 250px 250px;
   grid-template-rows: auto;
   grid-template-areas: 
-  "popular-title    card-popular"
-  "card-popular     card-popular";
-  margin-left: -20px;  
-  padding-left: 0;
+  "a . ."
+  "b c d";
+  margin: 0 0 0 -27px;
+  padding: 0 0 30px 0px;
   border-radius: 0;
+  width: 773px;
+  }
+  .one{
+    grid-area: b;
+  }
+  .two{
+    grid-area: c;
+  }
+  .tree{
+    grid-area: d;
+  }
+  .fa-chart-line{
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 2px;
   }
   .popular-title{
-    margin-left: 60px;
-    margin-top: 75px;
+    grid-area: a;
+    margin: 0;
+    padding: 40px 0 20px 25px;
   }
+  .card-popular-title.one{
+    margin-bottom: 25px;
+  }
+  .card-popular-title.tree{
+    margin-bottom: 25px;
+  }
+  .card-popular{
+    width: 236px;
+    height: 240px;
+    border-radius: 20px;
+    padding: 5px 5px 8px;
+    line-height: 7px;
+    display: inline-block;
+    margin: 16px;
+  }
+  .popularimg{
+    width:236px;
+    border-radius: 16px 16px 0 0;
+  }
+  .popular-container{
+    line-height: 15px;
+  }
+ .popular-tarif{
+   line-height: 20px;
+ }
+ .popular-stars.two{
+  margin-top: 3px;
+ }
+ .popular-stars{
+  margin-top: 3px;
+ }
   .accomodation{
-    width:760px;
+    width:765px;
     padding: 0;
     margin: 0;
     margin-top: 20px;
@@ -791,19 +856,51 @@ input:focus::placeholder{
   .accomodationimg{
     width:100%;
   }
+  .activities-title{
+    margin-left:0;
+    padding-right: 500px;
+    margin-bottom: 20px;
+  }
   .activities{
     display: grid;
-  grid-template-columns: 380px 380px;
+  grid-template-columns: 360px 360px;
   grid-template-rows:auto;
   grid-template-areas: 
-  "card-activities   card-activities"
-  "card-activities     card-activities"
-  "card-activities     card-activities";
-}
-  .page-bottom{
-    padding-bottom: 130px !important;
-    height: 200px;
+  "a b"
+  "d c";
+  column-gap: 15px;
+  row-gap: 5px;
   }
+  .activities-port{
+    grid-area: a;
+  }
+  .actvivities-fort-island{
+    grid-area: b;   
+  }
+  .activities-calanques{
+    grid-area: c;
+  }
+  .activities-garde-longchamp{
+    grid-area: d;
+  }
+  .activities-longchamp-img{
+    height: 145px;
+  }
+  .activities-fort-img{
+    height: 174px;
+  }
+  
+  
+  .page-bottom{
+    padding-bottom: 100px !important;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 270px 250px 250px;
+    grid-template-rows:auto;
+    grid-template-areas: 
+    "bottom  bottom  bottom";
+  }
+
 }
 
 
