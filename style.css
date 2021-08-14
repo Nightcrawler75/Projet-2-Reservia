@@ -100,7 +100,6 @@ input:focus{
   animation-name: blink;
   animation-duration: 800ms;
   animation-iteration-count: infinite;
-  /* border-color: #F2F2F2; */
 }
 ::placeholder {
   font-family: 'Raleway', sans-serif;
@@ -194,7 +193,6 @@ input:focus::placeholder{
   background-color: #DEEBFF;
   border-color: #DEEBFF;
 }
-
 .filter-icon {
   display: flex;
   align-items: center;
@@ -211,11 +209,6 @@ input:focus::placeholder{
 .filter-text {
   margin: 15px;
 }
-
-.filter-text:hover.filter-button {
-  color: #0065ff;
-}
-
 .fa-money-bill-wave {
   color: #0065ff;
 }
@@ -639,7 +632,6 @@ input:focus::placeholder{
   }
   .filter-buttons{
     flex-wrap:wrap;
-    /* margin-right: -50px; */
     justify-content: flex-start;
   } 
   .filter-button{
@@ -661,7 +653,6 @@ input:focus::placeholder{
     margin-left: 5px;
   }
   .popular{
-    /* margin-left: -15px; */
     justify-content: center;
     margin: 0 0;
     padding: 0 20px 35px 20px;
@@ -920,37 +911,3 @@ input:focus::placeholder{
   }
 
 }
-
-
-
-/* // Large devices (desktops, 992px and up) */
-/*@media screen and (max-width: 992px) {*/
-/*   
-/*    }*/
-
-/*    .accomodation {*/
-/*        display: block;*/
-/*        width: 844px;*/
-/*    }*/
-
-/*    .card-popular {*/
-/*        width: 343px;*/
-/*    }*/
-
-   /* .popular-img {
-       width: 127px;
-       height: 133px;
-    } */
-
-/*    .hotels {*/
-/*        flex-direction: row;*/
-/*    }*/
-
-/*    .activities {*/
-/*        flex-direction: row;*/
-/*    }*/
-
-/*    .page-bottom {*/
-/*        flex-direction: row;*/
-/*    }*/
-/*}*/
