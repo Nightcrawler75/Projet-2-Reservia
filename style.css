@@ -526,9 +526,6 @@ html{
 }
   /* // Small devices (landscape phones, 375px and up) */
 @media screen and (max-width: 600px) {
-  main{
-    margin-left: 15px; /*modif*/
-  }
   .logo{
     padding: 20px 0 0 15px;
     margin-bottom: 25px;
@@ -548,6 +545,7 @@ html{
     padding-bottom: 15px;
     border-bottom: solid 3px #F2F2F2 ; 
     margin-bottom: 15px;
+    width: 50%;
   }
   .nav:hover {
     border-bottom: solid #0065FF;
@@ -563,7 +561,9 @@ html{
     top: 30px;
   }
   .nav-and-connect{
+    display: flex;
     flex-direction: row;
+    margin-right: 0px;
   }
   .announcement{
     padding: 0 20px 15px 15px;
@@ -647,17 +647,17 @@ html{
   .popular{
     justify-content: center;
     margin: 0 0;
-    padding: 0 20px 35px 20px;
+    padding: 0 0px 35px 10px;
     border-radius: 0;
-    width:unset;
+    width:374px;
   }
   .fa-chart-line {
-    padding-right: 0px;
+    padding-right: 20px;
     margin-right: 10px;
    
   }
   .card-popular{
-    width: unset;
+    width: 335px;
     margin: 6px 4px;
   }
   .accomodation{
@@ -688,7 +688,7 @@ html{
     margin: 0;
   }
   .card-activities{
-    margin: 22px 22px 5px;
+    margin: 22px 12px 5px 22px;
     width: 100%;
   }
   .activities-port-img{
@@ -736,6 +736,9 @@ html{
 }
 /* // Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 992px) and (min-width: 602px){
+  body{
+    padding-bottom: 0;
+  }
   input:focus{
     outline: none;
     animation-name: blink;
