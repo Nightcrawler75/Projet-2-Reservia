@@ -914,11 +914,17 @@ html{
     width: 320px;
     padding: 0 0px 35px 0px;
     }
+  .popular-container{
+    margin: 5px 5px 20px;
+  }
   .card-popular{
     width: 300px;
   }
   .card-popular-title{
     width:160px;
+  }
+  .popularimg{
+    height: 152px;
   }
   .accomodationimg{
     width: 290px;
