@@ -910,7 +910,7 @@ html{
 
   .popular{
     width: 320px;
-    padding-left: 0;
+    padding: 0 0px 35px 0px;
     }
   .card-popular{
     width: 300px;
@@ -923,8 +923,7 @@ html{
   }
   .card-accomodation{
     width: 290px;
-    margin-right: 0;
-    margin-left: 12px;
+    margin: 10px 10px 10px 10px;
   }
   .activities-calanques-img{
     width: 290px;
@@ -946,6 +945,6 @@ html{
   }
   .card-activities{
     width: 290px;
-    margin-left: 12px;
+    margin: 22px 12px 5px 14px;
   }
 }
