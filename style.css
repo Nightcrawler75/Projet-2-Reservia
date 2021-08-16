@@ -525,7 +525,7 @@ html{
   width: unset; /* useless modif */
 }
   /* // Small devices (landscape phones, 375px and up) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (min-width: 319px) {
   .logo{
     padding: 20px 0 0 15px;
     margin-bottom: 25px;
@@ -904,5 +904,44 @@ html{
     grid-template-areas: 
     "bottom  bottom  bottom";
   }
+}
 
+  @media (max-width: 320px) {
+
+  .popular{
+    width: 319px;
+    }
+  .card-popular{
+    width: 300px;
+  }
+  .card-popular-title{
+    width:160px;
+  }
+  .accomodationimg{
+    width: 290px;
+  }
+  .card-accomodation{
+    width: 290px;
+  }
+  .activities-calanques-img{
+    width: 290px;
+  }
+  .activities-fort-img{
+    width: 290px;
+  }
+  .activities-island-img{
+    width: 290px;
+  }
+  .activities-longchamp-img{
+    width: 290px;
+  }
+  .activities-notre-dame-img{
+    width: 290px;
+  }
+  .activities-port-img{
+    width: 290px;
+  }
+  .card-activities{
+    width: 290px;
+  }
 }
