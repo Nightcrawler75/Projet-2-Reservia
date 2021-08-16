@@ -907,7 +907,9 @@ html{
 }
 
   @media (max-width: 320px) {
-
+  .search-bar{
+    padding-left: 0;
+  } 
   .popular{
     width: 320px;
     padding: 0 0px 35px 0px;
@@ -945,6 +947,6 @@ html{
   }
   .card-activities{
     width: 290px;
-    margin: 22px 12px 5px 14px;
+    margin: 22px 12px 5px 16px;
   }
 }
